@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zach Morin | Front-End Dev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#whatIDo" class="nav__link">What I Do</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Get In Touch</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro animated bounceInRight">
+            Hi, I am <strong>Zach Morin</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro animated bounceInRight">Front-End Dev</p>
+        <img src="./assets/imgs/zach1.JPG" alt="A picture of Zach Morin" class="animated bounceInRight intro__img">
+    </section>
+
+    <!-- What I Do -->
+    <section class="my-services" id="whatIDo">
+        <h2 class="section__title section__title--services animated bounceInLeft">What I Do</h2>
+        <div class="services animated bounceInLeft">
+            <p>
+                I am a web developer that utilizes HTML, CSS, JavaScript, and PHP to develop visually stunning
+                user-driven
+                websites. Working primarily in the WordPress CMS, I maintain a working knowledge of new development
+                software, trends, and practices. I have a passion for developing highly effective UIs and finding
+                solutions
+                to delivering the best possible user experience.
+            </p>
+        </div>
+        <a href="./assets/Resume.pdf" target="_blank" class="btn">My Resume</a>
+    </section>
+
+    <!-- Slick Slider -->
+    <div id="logo-slider-section" class="slider-section">
+        <h2 class="section__title section__title--slider">
+            What I Work With
+        </h2>
+        <div class="logo-section" id="logos">
+            <div class="logoSlick">
+                <img src="./assets/logos/html5.png" alt="">
+                <h3>HTML5</h3>
+            </div>
+            <div class="logoSlick">
+                <img src="./assets/logos/css3.png" alt="">
+                <h3>CSS3</ph3>
+            </div>
+            <div class="logoSlick">
+                <img src="./assets/logos/javascript.png" alt="">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="logoSlick">
+                <img src="./assets/logos/jquery.png" alt="">
+                <h3>jQuery</h3>
+            </div>
+            <div class="logoSlick">
+                <img src="./assets/logos/nodejs.png" alt="">
+                <h3>Node.JS</h3>
+            </div>
+            <div class="logoSlick">
+                <img src="./assets/logos/php.png" alt="">
+                <h3>PHP</h3>
+            </div>
+            <div class="logoSlick">
+                <img src="./assets/logos/wordpress.png" alt="">
+                <h3>WordPress CMS</h3>
+            </div>
+            <div class="logoSlick">
+                <img src="./assets/logos/bootstrap.png" alt="">
+                <h3>Bootstrap</h3>
+            </div>
+            <div class="logoSlick">
+                <img src="./assets/logos/photoshop.png" alt="">
+                <h3>Photoshop</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="animated fadeInUp section__title section__title--about">Who I Am</h2>
+        <p class="section__subtitle section__subtitle--about animated fadeInUp">Web Developer from Tampa, FL</p>
+
+        <div class="about-me__body animated fadeInUp">
+            <p>Born in Dunedin, FL and raised in Tarpon Springs where I attended St. Petersburg College to study Web
+                Development. When I am not working on expanding my knowledge and sharpening my skills in the world of
+                development (probably JavaScript), I enjoy being out on the fairway enjoying the Florida sun, finding
+                the perfect craft beer (Elysian Space Dust IPA…) with some close friends, and practicing the art of
+                making the perfect shot of espresso. I am in the process of starting a transition to Hartford,
+                Connecticut to be with my beautiful girlfriend, Elizabeth, and three-year-old baby pit puppy, Freedom.
+                If you want to get to know me a little better feel free to shoot me an email or connect with me below!
+            </p>
+        </div>
+
+        <img class="about-me__img" src="./assets/imgs/tampa.jpg" alt="About Me Image">
+    </section>
+
+    <!--Contact -->
+    <section id="contact" class="contact-section">
+        <div>
+            <h2 class="section__title section__title--contact">Let's Connect</h2>
+
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:zmorin15@gmail.com" class="footer__link">zmorin15@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/zachary-morin-26976164/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" target="_blank" href="https://github.com/ZacharyMorin">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" target="_blank" href="https://www.instagram.com/powerhousezach/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
